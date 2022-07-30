@@ -29,7 +29,6 @@ export default function Navbar() {
           <NavLink
             to="/"
             className="link"
-            onClick={handleClick}
           >
             HOME
           </NavLink>
@@ -38,7 +37,6 @@ export default function Navbar() {
           <NavLink
             to="/projects"
             className="link"
-            onClick={handleClick}
           >
             PROJECTS
           </NavLink>
@@ -47,7 +45,6 @@ export default function Navbar() {
           <NavLink
             to="/about"
             className="link"
-            onClick={handleClick}
           >
             ABOUT
           </NavLink>
@@ -56,7 +53,6 @@ export default function Navbar() {
           <NavLink
             to="/contact"
             className="link"
-            onClick={handleClick}
           >
             CONTACT
           </NavLink>
