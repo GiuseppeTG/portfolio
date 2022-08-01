@@ -14,9 +14,9 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 1rem 2rem;
-  font-family: $poppins;
-  font-size: 1rem;
-  background-color: rgb(43, 43, 44);
+  font-family: $roboto;
+  font-size: 0.8rem;
+  background-color: $dark-purple;
   color: rgb(255, 255, 255);
 }
 
@@ -75,7 +75,7 @@ nav {
     margin: 5px auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: white;
+    background-color: $purple;
   }
 
   .hamburger {
@@ -103,6 +103,7 @@ nav {
     position: relative;
     right: -100%;
     width: 130%;
+    font-size: 0.8rem;
     background: linear-gradient(rgba(255, 255, 255, 0.128), rgba(255, 255, 255, 0.226), rgba(255, 255, 255, 0.189));
     border-radius: 2rem 0 0 2rem;
     transition: 0.5s;
@@ -118,7 +119,7 @@ nav {
     right: -100%;
     top: 115px;
     flex-direction: column;
-    width: 30%;
+    width: 7rem;
     gap: 1rem;
     text-align: center;
 

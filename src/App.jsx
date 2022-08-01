@@ -9,17 +9,15 @@ import './App.scss';
 
 function App() {
   return (
-    <>
+    <div className="main">
       <Navbar />
-      <div className="main">
-        <Routes>
-          <Route exact path="/" element={<HomePage />} />
-          <Route exact path="/about" element={<AboutPage />} />
-          <Route exact path="/contact" element={<ContactPage />} />
-          <Route exact path="/projects" element={<ProjectPage />} />
-        </Routes>
-      </div>
-    </>
+      <Routes>
+        <Route exact path="/" element={<HomePage />} />
+        <Route exact path="/about" element={<AboutPage />} />
+        <Route exact path="/contact" element={<ContactPage />} />
+        <Route exact path="/projects" element={<ProjectPage />} />
+      </Routes>
+    </div>
   );
 }
 
