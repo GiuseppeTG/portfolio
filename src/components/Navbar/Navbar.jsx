@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import profilePic from '../../images/profile_pic.jpg';
+import profilePic1 from '../../images/profile_pic1.jpg';
 import './Navbar.scss';
 
 export default function Navbar() {
@@ -18,7 +18,7 @@ export default function Navbar() {
         className="logo-text"
       >
         <div className="logo-and-text">
-          <img alt="logo" src={profilePic} className="logo-img" />
+          <img alt="logo" src={profilePic1} className="logo-img" />
           <p>
             Giuseppe T.
           </p>

@@ -6,6 +6,16 @@
   box-sizing: border-box;
 }
 
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  border: green solid 1px
+}
+
 .hero {
   margin: auto;
   padding: 2rem;
@@ -15,6 +25,8 @@
   gap: 1rem;
   font-family: $roboto;
   color: $white;
+  border: yellow solid 1px;
+
 }
 
 .hero-greeting {
