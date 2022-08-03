@@ -6,9 +6,43 @@
   box-sizing: border-box;
 }
 
+.media-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+}
+
+.media-title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.media-title {
+  font-family: $roboto;
+  color: $white;
+  font-weight: 500;
+}
+
+.contact-line {
+  width: 4rem;
+  height: 1px;
+  background-color: $purple;
+}
+
+.media-section p {
+  font-family: $roboto;
+  color: $white;
+}
+
 .icon-container {
   width: 80%;
   margin: auto;
+  margin-bottom: 8rem;
   display: flex;
   justify-content: space-around;
   padding: 1rem;

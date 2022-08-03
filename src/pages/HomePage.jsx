@@ -9,8 +9,8 @@ export default function HomePage() {
     <>
       <Hero />
       <About />
-      <Media />
       <Projects />
+      <Media />
     </>
   );
 }

@@ -1,7 +1,102 @@
 @import '../../scssVariables.scss';
 
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.project-container {
+  width: 300px;
+  border: rgba(255, 255, 255, 0.121) solid 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem;
+  border-radius: 0.25rem;
+  background: linear-gradient(rgba(255, 255, 255, 0.046), rgba(255, 255, 255, 0.053));
+  margin: auto;
+}
+
+.project-title {
+  font-family: $roboto;
+  color: $white;
+  font-size: 2rem;
+}
+
+.project-image-container {
+  min-height: 250px;
+  min-width: 300px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../../projectsData/images/to-do-app.png");
+}
+
+.project-description {
+  font-family: $roboto;
+  font-size: 0.8rem;
+  line-height: 2;
+  color: $white;
+}
+
+.languages-list {
+  display: flex;
+  gap: 0.25rem;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.language-container {
+  border: $purple solid 1px;
+  border-radius: 1rem;
+  font-family: $roboto;
+  font-size: 0.8rem;
+  padding: 0.5rem;
+  color: $white;
+}
+
+.project-links-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.project-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3rem;
+  height: 3rem;
+  font-size: 1rem;
+  border: white solid 1px;
+  border-radius: 50%;
+  text-decoration: none;
+  color: $purple;
+  transition: 0.2s;
+}
+
+.project-link:hover {
+  border: $purple solid 1px;
+  color: $white;
+  background-color: rgba(255, 255, 255, 0.031);
+}
+
+.github-project-link {
+  font-size: 2.5rem;
+}
+
+@media (max-width: 768px) {
+
+  .language-container {
+    border: $purple solid 1px;
+    border-radius: 1rem;
+    font-family: $roboto;
+    font-size: 0.8rem;
+    padding: 0.5rem;
+    color: $white;
+  }
 }
