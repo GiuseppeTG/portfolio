@@ -17,9 +17,9 @@
 
 👤 **Giuseppe Tomasini**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@GiuseppeTG](https://github.com/GiuseppeTG)
+- Twitter: [@giusetomasini](https://twitter.com/giusetomasini)
+- LinkedIn: [Giuseppe Tomasini](https://www.linkedin.com/in/giuseppe-tomasini-67ba101a8/)
 
 ## 🤝 Contributing
 
