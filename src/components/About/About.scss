@@ -62,6 +62,12 @@
   color: $purple;
 }
 
+.about-list {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  list-style-position: inside;
+}
+
 @media (max-width: 768px) {
   .about-description {
     display: grid;

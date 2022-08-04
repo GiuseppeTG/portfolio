@@ -45,7 +45,7 @@ export default function Navbar() {
           <Link
             spy
             smooth
-            offset={50}
+            offset={-100}
             duration={500}
             to="about"
             className="link"

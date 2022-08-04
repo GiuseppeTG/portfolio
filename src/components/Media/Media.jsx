@@ -3,7 +3,6 @@ import Aos from 'aos';
 import {
   AiOutlineInstagram, AiOutlineLinkedin, AiOutlineGithub, AiOutlineTwitter,
 } from 'react-icons/ai';
-import { Link } from 'react-router-dom';
 import './Media.scss';
 import 'aos/dist/aos.css';
 
@@ -25,21 +24,21 @@ export default function Media() {
       </div>
       <p>Email: giusetomasini@gmail.com</p>
       <div className="icon-container" id="media" ref={mediaSection}>
-        <Link to="https://www.instagram.com/giusetomasini/" className="icon instagram">
-          <AiOutlineInstagram className="i" />
-        </Link>
-
-        <Link to="https://twitter.com/giusetomasini" className="icon twitter">
-          <AiOutlineTwitter className="i" />
-        </Link>
-
-        <Link to="https://www.linkedin.com/in/giuseppe-tomasini-g/" className="icon linkedin">
+        <a href="https://www.linkedin.com/in/giuseppe-tomasini-g/" target="_blank" className="icon linkedin" rel="noreferrer">
           <AiOutlineLinkedin className="i" />
-        </Link>
+        </a>
 
-        <Link to="https://github.com/GiuseppeTG" className="icon github">
+        <a href="https://github.com/GiuseppeTG" target="_blank" className="icon github" rel="noreferrer">
           <AiOutlineGithub className="i" />
-        </Link>
+        </a>
+
+        <a href="https://www.instagram.com/giusetomasini/" target="_blank" className="icon instagram" rel="noreferrer">
+          <AiOutlineInstagram className="i" />
+        </a>
+
+        <a href="https://twitter.com/giusetomasini" target="_blank" className="icon twitter" rel="noreferrer">
+          <AiOutlineTwitter className="i" />
+        </a>
       </div>
     </div>
   );
