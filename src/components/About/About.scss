@@ -66,6 +66,7 @@
   display: grid;
   grid-template-columns: auto auto auto;
   list-style-position: inside;
+  font-family: $roboto;
 }
 
 @media (max-width: 768px) {
