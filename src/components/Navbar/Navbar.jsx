@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-scroll';
 import profilePic1 from '../../images/profile_pic1.jpg';
 import './Navbar.scss';
 
@@ -13,8 +13,12 @@ export default function Navbar() {
   return (
 
     <nav className="navbar">
-      <NavLink
-        to="/"
+      <Link
+        spy
+        smooth
+        offset={-50}
+        duration={500}
+        to="hero"
         className="logo-text"
       >
         <div className="logo-and-text">
@@ -23,39 +27,55 @@ export default function Navbar() {
             Giuseppe T.
           </p>
         </div>
-      </NavLink>
+      </Link>
       <ul className={isActive ? 'links-list-active links-list' : 'links-list'}>
         <li className="link1">
-          <NavLink
-            to="/"
+          <Link
+            spy
+            smooth
+            offset={-50}
+            duration={500}
+            to="hero"
             className="link"
           >
             HOME
-          </NavLink>
-        </li>
-        <li className="link2">
-          <NavLink
-            to="/projects"
-            className="link"
-          >
-            PROJECTS
-          </NavLink>
+          </Link>
         </li>
         <li className="link3">
-          <NavLink
-            to="/about"
+          <Link
+            spy
+            smooth
+            offset={50}
+            duration={500}
+            to="about"
             className="link"
           >
             ABOUT
-          </NavLink>
+          </Link>
+        </li>
+        <li className="link2">
+          <Link
+            spy
+            smooth
+            offset={-150}
+            duration={500}
+            to="projects"
+            className="link"
+          >
+            PROJECTS
+          </Link>
         </li>
         <li className="link4">
-          <NavLink
-            to="/contact"
+          <Link
+            spy
+            smooth
+            offset={50}
+            duration={500}
+            to="media"
             className="link"
           >
             CONTACT
-          </NavLink>
+          </Link>
         </li>
       </ul>
       <button type="button" className={isActive ? 'active hamburger' : 'hamburger'} onClick={handleClick}>

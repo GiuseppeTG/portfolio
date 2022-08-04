@@ -10,7 +10,7 @@ export default function About() {
   }, []);
 
   return (
-    <section className="section">
+    <section className="section" id="about">
       <div className="about">
         <div className="section-title" data-aos="fade-right">
           <h2 className="about-title">About Me</h2>

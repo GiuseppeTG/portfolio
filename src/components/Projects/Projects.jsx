@@ -34,7 +34,7 @@ export default function Projects() {
   };
 
   return (
-    <section className="section">
+    <section className="section" id="projects">
       <div className="projects">
         <div className="section-title" data-aos="fade-right">
           <h2 className="projects-title">Projects</h2>

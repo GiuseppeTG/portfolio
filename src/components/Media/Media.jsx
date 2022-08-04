@@ -15,7 +15,7 @@ export default function Media() {
   }, []);
 
   return (
-    <div className="media-section" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+    <div className="media-section" id="media" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
       <div className="media-title-container">
         <span className="contact-line" />
         <h2 className="media-title">

@@ -9,6 +9,15 @@ import tvmazeImage from './images/tvmaze.png';
 
 const projects = [
   {
+    id: 4,
+    name: 'Studio Ghibli\'s Movies',
+    live: 'https://glittering-meringue-ba1533.netlify.app/',
+    github: 'https://github.com/GiuseppeTG/studio-ghibli',
+    description: 'In this App, I used Studio Ghibli API to render a list of movies that can be filtered by director name. You can see the details of each movie when you click on them. It also has a list of human characters with a short description and a link to their movie.',
+    languages: ['HTML', 'CSS', 'Javascript', 'React/Redux'],
+    image: studioghibliImage,
+  },
+  {
     id: 1,
     name: 'To Do App',
     live: 'https://62c774fa615d2a0d1a10e151--musical-syrniki-aa9be6.netlify.app/',
@@ -34,15 +43,6 @@ const projects = [
     description: 'A webpage for using a simple calculator made with React',
     languages: ['HTML', 'CSS', 'Javascript', 'React'],
     image: calculatorImage,
-  },
-  {
-    id: 4,
-    name: 'Studio Ghibli\'s Movies',
-    live: 'https://glittering-meringue-ba1533.netlify.app/',
-    github: 'https://github.com/GiuseppeTG/studio-ghibli',
-    description: 'In this App, I used Studio Ghibli API to render a list of movies that can be filtered by director name. You can see the details of each movie when you click on them. It also has a list of human characters with a short description and a link to their movie.',
-    languages: ['HTML', 'CSS', 'Javascript', 'React/Redux'],
-    image: studioghibliImage,
   },
   {
     id: 5,

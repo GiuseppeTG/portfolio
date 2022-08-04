@@ -9,7 +9,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <section className="section">
+    <section className="section" id="hero">
       <div className="hero" data-aos="fade-up">
         <p className="hero-greeting">Hello my name is</p>
         <h1 className="hero-name">Giuseppe Tomasini.</h1>
