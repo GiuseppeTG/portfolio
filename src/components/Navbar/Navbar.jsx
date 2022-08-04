@@ -57,7 +57,7 @@ export default function Navbar() {
           <Link
             spy
             smooth
-            offset={-150}
+            offset={-70}
             duration={500}
             to="projects"
             className="link"
@@ -69,7 +69,7 @@ export default function Navbar() {
           <Link
             spy
             smooth
-            offset={50}
+            offset={-200}
             duration={500}
             to="media"
             className="link"

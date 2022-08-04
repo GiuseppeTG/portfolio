@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import './Hero.scss';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import { Link } from 'react-scroll';
 
 export default function Hero() {
   useEffect(() => {
@@ -19,7 +20,16 @@ export default function Hero() {
           Currently, I am building this portfolio website
           to showcase my projects and land my first job.
         </p>
-        <button className="hero-button" type="button">See my projects!</button>
+        <Link
+          spy
+          smooth
+          offset={-70}
+          duration={500}
+          to="projects"
+          className="link"
+        >
+          <button className="hero-button" type="button">See my projects!</button>
+        </Link>
       </div>
     </section>
   );
