@@ -59,19 +59,21 @@
   text-decoration: none;
   font-size: 26px;
   color: $white;
-  border-radius: 50%;
   outline: $white solid 1px;
-  transition-property: outline-offset, outline-color, background-image,
-    background-image, box-shadow;
+  transition-property:
+    outline-offset,
+    outline-color,
+    background-image,
+    background-image,
+    box-shadow;
   transition-duration: 0.25s;
   background-image: none;
   border-radius: 50%;
-
 }
 
 .icon:hover {
   outline-offset: 4px;
-  box-shadow: 0px 0px 10px 10px rgba(255, 255, 255, 0.186);
+  box-shadow: 0 0 10px 10px rgba(255, 255, 255, 0.186);
 }
 
 .icon:hover .i {
@@ -80,10 +82,14 @@
 
 .instagram:hover {
   background-image:
-    radial-gradient(circle at 30% 107%,
-      #fdf497 0%, #fdf497 5%,
-      #fd5949 45%, #d6249f 60%,
-      #285AEB 90%);
+    radial-gradient(
+      circle at 30% 107%,
+      #fdf497 0%,
+      #fdf497 5%,
+      #fd5949 45%,
+      #d6249f 60%,
+      #285aeb 90%
+    );
   outline-color: #a02d76;
 }
 

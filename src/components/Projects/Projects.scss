@@ -14,7 +14,7 @@
 }
 
 .projects-title {
-  min-width: fit-content;
+  width: fit-content;
   color: $white;
 }
 
@@ -46,8 +46,6 @@
   list-style: none;
   margin-bottom: 8rem;
 }
-
-
 
 @media (max-width: 900px) {
   .projects-list {

@@ -1,6 +1,5 @@
 @import '../../scssVariables.scss';
 
-
 * {
   margin: 0;
   padding: 0;
@@ -90,7 +89,6 @@
 }
 
 @media (max-width: 768px) {
-
   .language-container {
     border: $purple solid 1px;
     border-radius: 1rem;

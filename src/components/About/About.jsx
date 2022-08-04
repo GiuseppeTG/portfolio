@@ -22,14 +22,14 @@ export default function About() {
               Hello! My name is Giuseppe and I enjoy creating things for the web.
               My interest in development started back in 2018 when I participated in a
               {' '}
-              <span className="purple-text">game jam</span>
+              <span className="purple-text">game jam </span>
               and see how the developers make video games work properly. Turns out I learned
               some code by seeing how the team was programming the music I made for the game.
             </p>
             <p>
               I joined
               {' '}
-              <span className="purple-text">Microverse,</span>
+              <span className="purple-text">Microverse, </span>
               an online school for remote software developers,
               where I worked on different projects with other students doing pair programming.
               I also became a

@@ -38,7 +38,7 @@ const projects = [
   {
     id: 3,
     name: 'Calculator',
-    live: 'https://resilient-lebkuchen-6e7352.netlify.app/Calculator',
+    live: 'https://resilient-lebkuchen-6e7352.netlify.app/',
     github: 'https://github.com/GiuseppeTG/Calculator',
     description: 'A webpage for using a simple calculator made with React',
     languages: ['HTML', 'CSS', 'Javascript', 'React'],
