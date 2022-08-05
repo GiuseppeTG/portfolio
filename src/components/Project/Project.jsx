@@ -14,16 +14,18 @@ export default function Project({
 
   return (
     <li className="project-container">
-      <p className="project-title">
-        {name}
-      </p>
       <div
         className="project-image-container"
         style={{
           backgroundImage: `url(${(image)})`,
         }}
       />
-      <p className="project-description">{description}</p>
+      <div className="project-info">
+        <p className="project-title">
+          {name}
+        </p>
+        <p className="project-description">{description}</p>
+      </div>
       <ul className="languages-list">
         {
           languages.map((language) => (

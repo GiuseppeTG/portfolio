@@ -8,19 +8,29 @@
 
 .project-container {
   width: 300px;
+  height: 710px;
   border: rgba(255, 255, 255, 0.121) solid 1px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   gap: 1rem;
   padding: 2rem;
+  padding-top: 0;
   border-radius: 0.25rem;
   background: linear-gradient(rgba(255, 255, 255, 0.046), rgba(255, 255, 255, 0.053));
   margin: auto;
 }
 
+.project-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  height: 18rem;
+}
+
 .project-title {
+  display: flex;
+  align-items: center;
   font-family: $roboto;
   color: $white;
   font-size: 2rem;
@@ -28,14 +38,14 @@
 
 .project-image-container {
   min-height: 250px;
-  min-width: 300px;
+  min-width: 298px;
+  border-radius: 0.25rem 0.25rem 0 0;
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-  background-image: url("../../projectsData/images/to-do-app.png");
 }
 
 .project-description {
+  height: 12rem;
   font-family: $roboto;
   font-size: 0.8rem;
   line-height: 2;
