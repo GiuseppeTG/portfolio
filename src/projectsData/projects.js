@@ -6,6 +6,7 @@ import spacehubImage from './images/spacehub.png';
 import calculatorImage from './images/calculator.png';
 import studioghibliImage from './images/studioghibli.png';
 import tvmazeImage from './images/tvmaze.png';
+import cashAppImage from './images/cash-app.png';
 
 const projects = [
   {
@@ -61,6 +62,15 @@ const projects = [
     description: 'Bookstore is a SPA that lets you display a list of books, add and, remove them, using an API.',
     languages: ['HTML', 'CSS', 'Javascript', 'React/Redux'],
     image: bookstoreImage,
+  },
+  {
+    id: 7,
+    name: 'Cash-app',
+    live: 'https://warm-ridge-34734.herokuapp.com/',
+    github: 'https://github.com/GiuseppeTG/Cash-app',
+    description: 'Cash-app is a mobile app that allows you to group your expenses in different categories to keep track of them',
+    languages: ['Ror', 'Scss', 'postgresql'],
+    image: cashAppImage,
   },
 ];
 
