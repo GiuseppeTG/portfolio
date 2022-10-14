@@ -68,8 +68,8 @@ const projects = [
     name: 'Cash-app',
     live: 'https://warm-ridge-34734.herokuapp.com/',
     github: 'https://github.com/GiuseppeTG/Cash-app',
-    description: 'Cash-app is a mobile app that allows you to group your expenses in different categories to keep track of them',
-    languages: ['Ror', 'Scss', 'postgresql'],
+    description: 'Cash-app is a mobile app that allows you to group your expenses in different categories to keep track of them. Database is made using postgresql.',
+    languages: ['Ruby on Rails', 'SCSS', 'Postgresql'],
     image: cashAppImage,
   },
 ];
