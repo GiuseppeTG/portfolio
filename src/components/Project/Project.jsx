@@ -10,8 +10,6 @@ import {
 export default function Project({
   name, image, description, languages, id, live, github,
 }) {
-  console.log(languages);
-
   return (
     <li className="project-container">
       <div
