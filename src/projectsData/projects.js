@@ -15,7 +15,7 @@ const projects = [
     name: 'Exo-cars',
     live: 'https://exo-cars.herokuapp.com/',
     github: 'https://github.com/GiuseppeTG/Exo-cars-frontend',
-    description: 'Full stack web app for renting exotic cars. Created API with Ruby on Rails, database with PostgreSQL, frontend with React. Users can rent cars, admins can add and delete cars',
+    description: 'Full stack web app for renting exotic cars. Created API with Ruby on Rails, database with PostgreSQL, frontend with React. Users can rent cars, admins can add and delete cars.',
     languages: ['Ruby on Rails', 'React/Redux'],
     image: exoCars,
   },
